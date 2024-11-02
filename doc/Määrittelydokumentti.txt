@@ -1,0 +1,46 @@
+Määrittelydokumentti.
+
+Opinto-ohjelma: Tiedonkäsittelytiede TKT.
+Projektin dokumentaatiossa käytetty kieli: Englanti
+
+Ohjelmointikieli.
+
+Projektin ohjelmointikieli on Python.
+En pysty vertausarvioiman muita kielia.
+
+Toteutettaat Algoritmit ja Tietorakenteet.
+
+Projektissa tutkin ja toteutan käsien ja sormien tunnistukseen liittyviä algritmeja ja tietorakenteita.
+Tässä vaiheessa keskityn kolmeen mahdolliseen algorit,oseem öähestymistapaan, joiden avulla tunnistaan
+sormien kärkipisteet. Lopullinen päätös käytettävistä algoritmeista teen vasta testauksen ja ohjajan keskustelun
+jälkeen. Alustavasti nämä kolme ovat:
+
+1. K-Curvature -algoritmi:
+Tämä algoritmi hyödyntää käsikuvion kaarevuutta, jonka avulla voidaan tunnistaa sormien kärkipisteet.
+
+2. Convex Hull ja Convexity Defects - algoritmit.
+Convex Hull määrittää käsikuvion ulomman rajan, ja tämän jälkeen Convexity Defectshavaitsee kuviot, 
+jotka jäävät rajan ulkopuolelle. Mäitä "puutteita" voidaan löytää sormien väliset alueet ja sormien kärkikohdat.
+
+3. Kombinaatio.
+Yhdistelemalla parannetaan luotettavuutta ja tarkkuutta mutta se myös nosta vaikeus taso.
+
+Ratkaistava Ongelma.
+
+Ongelma on luokasta tietokoneen näkö (Computer vision) ja anta mahdollisuus kommunikoiman tietokonen kanssa ilman
+varsinaista syötteettä.
+
+Syötteet ja Käyttö
+
+Ohjelman syötteenä toimii reaaliaikainen videovirta. Käytännössä annetaan käskskyä käsimerkeilla.
+
+Viitteet
+
+Wikipedia
+OpenCV ja NumPyn dokumentaation.
+
+Projektin Ydin.
+Projektin ydin on sormien kärkipisteiden tunnistaminen ja tulkinta reaaliaikaisessa videokamerakuvassa ilman 
+valmiita kirjastojen tarjoamia korkeantason käsitunnistusratkaisuja.
+
+
